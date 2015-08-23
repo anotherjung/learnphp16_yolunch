@@ -1,0 +1,83 @@
+
+
+.c3 {
+	min-height: 370px;
+}
+.c5 {
+	min-height: 570px;
+}
+
+.c7 {
+	min-height: 770px;
+}
+
+.c90 {
+	min-height: 90%;
+}
+
+.c100 {
+	min-height: 100%;
+}
+
+
+
+
+.menu ul  {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.blue {
+	background: url('https://s3.amazonaws.com/General_V88/codingdojo_assets/DojoBackground.png') #ffffff no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 0px;
+}
+
+
+.darkgrey {
+	background-color: #494949;
+	background-position: center;
+	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 0px;
+}
+
+.lightgrey {
+	background-color: #F9F8F8;
+	background-position: center;
+	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 0px;
+}
+
+
+
+
+#contactform .btn:hover {
+  background: rgba(9,8,77,0.7);
+}
+
+#map-canvas {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 15px;
+  border: 2px solid #fff;
+}
+
+
+
+#save-widget {
+	color: #494949;
+width: 570px;
+box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+background-color: white;
+padding: 10px;
+font-size: 13px;
+margin: 15px;
+}
+
