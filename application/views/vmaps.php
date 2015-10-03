@@ -126,7 +126,7 @@
   </style>
 
 
-    <div class="widget" id="save-widget">
+    <div class="widget btn-lg" id="save-widget">
         <h2>Yo! What's for Lunch?</h2>
       </div>
 

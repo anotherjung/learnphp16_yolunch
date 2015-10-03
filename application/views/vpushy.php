@@ -3,10 +3,10 @@
 	<ul class="menu">
 		<h2>Start A Group</h2>
 			<form action="/main/create_group" method="post" class="form-signin">
-			<select class="form-control" name='user_id' required autofocus>
+			<select class="form-control" name='user_id' autofocus>
 				<?php
 				foreach ($users as $user) { 
-					if($user['group_id'] == 1) {?>
+					if($user['group_id'] == 9) {?>
 					<option value='<?=$user['id']?>'><?=$user['firstname']?></option>
 				<?  }
 				}
@@ -24,14 +24,14 @@
 
 			<!-- <input type="text" name="restaurant" class="form-control" placeholder="Restaurant" required autofocus> -->
 			<input type="text" name="hour" placeholder="hh" class="form-control" id="together"><input type="text" name="min" placeholder="mm" class="form-control" id="together">
-			<input type="submit" class="btn btn-lg btn-success btn-block" value="Create Group!">
+			<input type="submit" class="btn-lg btn-success" value="Create Group!">
 		</form>
 	</ul> <!-- ends ul-menu -->
 
 <ul class="menu">
 		<h2>Join A Group</h2>
 		<form action="/main/join_group" method="post" class="form-signin">
-			<select class="form-control" name='user_id' required autofocus>
+			<select class="form-control" name='user_id' autofocus>
 				<?php
 				foreach ($users as $user) { 
 					if($user['group_id'] == 1) { ?>
@@ -50,7 +50,7 @@
 
 					?>
 				</select>
-				<input type="submit" class="btn btn-lg btn-primary btn-block" value="Go!">
+				<input type="submit" class="btn-lg btn-primary" value="Go!">
 			</form>
 		</ul>
 		<ul>
@@ -67,7 +67,7 @@
 						}
 						?>
 					</select>
-					<input type="submit" name = "leaving" class = "btn btn-lg btn-primary btn-block" value = "We're Leaving">
+					<input type="submit" name = "leaving" class = "btn-lg btn-primary" value = "We're Leaving">
 
 				</form>
 
@@ -119,7 +119,7 @@
 		</select>
 		<textarea  class="form-control"  name='review_content' style='color:black' cols='40' rows='3'></textarea>
 		<!-- <input type="text" name="restaurant" class="form-control" placeholder="Restaurant" required autofocus> -->
-		<input type="submit" class="btn btn-lg btn-primary btn-block " value="Post Review!" aria-describedby="sizing-addon1">
+		<input type="submit" class="btn-lg btn-primary" value="Post Review!" aria-describedby="sizing-addon1">
 		</form>
 	</ul>
 </nav>
@@ -135,10 +135,10 @@
 <!-- Your Content -->
 <div id="container">
 <!-- Menu Button -->
-<div class="menu-btn__container">
+<div class="menu-btn container">
 <div class="col-md-3"></div>
-<div class="col-md-3 menu-btn menu-btn--left">&#9776; Create a Group & Join a Group</div>
-<div class="col-md-3 menu-btn menu-btn--right">&#9776; Create Resturant & Post a Review!</div>
+<div class="col-md-3 menu-btn menu-btn--left">&#9776; Create/Join a Group</div>
+<div class="col-md-3 menu-btn menu-btn--right">&#9776; Create/Post a Review</div>
 <div class="col-md-3"></div>
 </div>
 </div>
